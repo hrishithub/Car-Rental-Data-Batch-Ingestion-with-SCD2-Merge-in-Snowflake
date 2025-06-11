@@ -8,7 +8,7 @@ This project demonstrates a batch-based data ingestion pipeline for a car rental
 - Efficient transformation and loading of clean, enriched fact data into a data warehouse.
 
 ## Architecture
-![Project Architecture](_Car Rental Data Batch Ingestion with SCD2 Merge.png)
+![Project Architecture](Car_Rental_Data_Batch_Ingestion_with_SCD2_Merge.png)
 
 ## Technology Used
 - Python
@@ -27,7 +27,7 @@ The daily datasets used for ingestion include:
 #### Star Schema:
 - Fact Table: rental_fact
 - Dimensions: customer_dim (SCD2), car_dim, location_dim, date_dim
-![Data Model](Car Rental Data Model.png)
+![Data Model](Car_Rental_Data_Model.png)
 
 
 ## Scripts for Project
