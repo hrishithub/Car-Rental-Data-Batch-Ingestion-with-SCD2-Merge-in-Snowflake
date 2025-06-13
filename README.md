@@ -17,8 +17,8 @@ In a car rental business, managing and analyzing daily rental and customer data 
 
 ## Dataset Used
 The daily datasets used for ingestion include:
-- customer_daily_data (CSV): customer_id, name, email, phone
-- car_rental_daily_data (JSON): rental_id, customer_id, car_id, pickup_location_id, drop_location_id, start_date, end_date, amount, quantity
+- `customer_daily_data` (CSV): customer_id, name, email, phone
+- `car_rental_daily_data` (JSON): rental_id, customer_id, car_id, pickup_location_id, drop_location_id, start_date, end_date, amount, quantity
 
 ## Data Model
 #### Star Schema:
