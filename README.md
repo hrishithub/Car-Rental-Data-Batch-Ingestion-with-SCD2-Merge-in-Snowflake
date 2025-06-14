@@ -17,8 +17,8 @@ In a car rental business, managing and analyzing daily rental and customer data 
 
 ## Dataset Used
 The daily datasets used for ingestion include:
-- customer_daily_data (CSV): customer_id, name, email, phone
-- car_rental_daily_data (JSON): rental_id, customer_id, car_id, pickup_location_id, drop_location_id, start_date, end_date, amount, quantity
+- `customer_daily_data` (CSV): customer_id, name, email, phone
+- `car_rental_daily_data` (JSON): rental_id, customer_id, car_id, pickup_location_id, drop_location_id, start_date, end_date, amount, quantity
 
 ## Data Model
 #### Star Schema:
@@ -49,7 +49,7 @@ Airflow DAG that:
 - Parameterized Orchestration: Enables backfilling or replaying data for any date with simple overrides.
 
 ## Buisness Impact
-By deriving key metrics such as rental_duration_days, total_rental_amount, average_daily_rental_amount, and is_long_rental, the pipeline enables the car rental business to gain actionable insights into customer behavior and rental patterns. These insights support data-driven decisions around pricing strategies, customer segmentation, inventory planning, and marketing campaigns, ultimately helping to optimize revenue and enhance customer experience.
+By deriving key metrics such as `rental_duration_days`, `total_rental_amount`, `average_daily_rental_amount`, and `is_long_rental`, the pipeline enables the car rental business to gain actionable insights into customer behavior and rental patterns. These insights support data-driven decisions around pricing strategies, customer segmentation, inventory planning, and marketing campaigns, ultimately helping to optimize revenue and enhance customer experience.
 
 ## My Learnings
 - Implemented SCD2 merge logic in Snowflake using PySpark and SQL MERGE.
